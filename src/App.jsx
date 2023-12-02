@@ -8,10 +8,11 @@ import ItemListContainer from "./components/ItemListContainer"
 function App() {
   return (
     <div id='app'>
-      <ItemListContainer bienvenida=" Bienvenido a la tienda oficial de Mike ✔" />
+      <div className='display-6'>
+        <ItemListContainer bienvenida=" Bienvenido a la tienda oficial de Mike ✔" />
+      </div>
       <NavBar />
     </div>
-
   )
 }
 
