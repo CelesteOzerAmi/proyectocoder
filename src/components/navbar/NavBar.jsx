@@ -4,7 +4,7 @@ import "./NavBar.css"
 const NavBar = () => {
     return (
 
-        <div>
+        <section>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"> Inicio </a>
@@ -34,7 +34,7 @@ const NavBar = () => {
                 </div>
             </nav>
             <CartWidget />
-        </div>
+        </section>
     )
 }
 
