@@ -1,3 +1,5 @@
-#app  {
-    text-align: center;
+.app  {
+    padding: 5px;
+    background-color: rgb(223, 238, 252);
+    
 }

@@ -1,8 +1,10 @@
+import "../navbar/CartWidget.css"
+
 const CartWidget = () => {
     return (
-        <div id="cartwidget">
-            <img src="/img/carrito.png" alt="" />
+        <div className="cartwidget">
             <p>0</p>
+            <img src="/img/carrito.png" alt="" />
         </div>
     )
 }

@@ -1,17 +1,15 @@
 
 import './App.css';
 import NavBar from './components/navbar/NavBar';
-import ItemListContainer from "./components/ItemListContainer"
-import ItemCount from "./components/ItemCount"
+import ItemListContainer from "./components/itemlistcontainer/ItemListContainer"
 
 
 
 function App() {
   return (
-    <div id='app'>
+    <div id='app' className='app'>
       <NavBar />
       <ItemListContainer bienvenida=" Bienvenido a la tienda oficial de Mike ✔" />
-      <ItemCount stock = { 5 } />
     </div>
   );
 }
