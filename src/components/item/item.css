@@ -1,18 +1,29 @@
 .card { 
-    display: inline-block ;
-    align-items: center ;
-    justify-content: center;
-    margin: 20px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
     padding: 30px;
     width: 200px;
-    height: 400px;
+    height: 350px;
     border: 1px solid black;
 }
 
 .card > p {
+    padding: 9px;
     font-style:italic;
 }
+
+.card > h1 {
+    font-weight: lighter;
+}
+
+.card{
+    padding-bottom: 20px;
+}
+
 .card > img {
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 150px;
 }

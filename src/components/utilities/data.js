@@ -41,7 +41,7 @@ const productos = [
     },
     {
         id: "c1",
-        nombre: "pelota de futbol",
+        nombre: "pelota",
         descripcion: "pelota de futbol",
         precio: 55, 
         stock: 19, 

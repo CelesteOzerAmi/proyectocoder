@@ -2,8 +2,8 @@
 .container {
     display: flex;
     margin-bottom: 20px;
-    align-items: center;
-    justify-content: center;
+    align-items:start;
+    justify-content:center;
 }
 
 .container > p {

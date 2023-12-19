@@ -1,5 +1,7 @@
 .app  {
-    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
     background-color: rgb(223, 238, 252);
     
 }
