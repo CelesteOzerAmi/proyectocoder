@@ -1,6 +1,7 @@
 const productos = [
     {
         id: "a1",
+        categoria: "vestimenta",
         nombre: "short 1",
         descripcion: "short negro de dama",
         precio: 120, 
@@ -9,6 +10,7 @@ const productos = [
     },
     {
         id: "a2",
+        categoria: "vestimenta",
         nombre: "short 2",
         descripcion: "short blanco de dama",
         precio: 120, 
@@ -17,6 +19,7 @@ const productos = [
     },
     {
         id: "a3",
+        categoria: "vestimenta",
         nombre: "short 3",
         descripcion: "short largo de hombre",
         precio: 660, 
@@ -25,6 +28,7 @@ const productos = [
     },
     {
         id: "b1",
+        categoria: "vestimenta",
         nombre: "calza",
         descripcion: "calza larga de dama",
         precio: 1300, 
@@ -33,6 +37,7 @@ const productos = [
     },
     {
         id: "b2",
+        categoria: "vestimenta",
         nombre: "biker",
         descripcion: "biker de dama",
         precio: 340, 
@@ -41,6 +46,7 @@ const productos = [
     },
     {
         id: "c1",
+        categoria: "articulos",
         nombre: "pelota",
         descripcion: "pelota de futbol",
         precio: 55, 

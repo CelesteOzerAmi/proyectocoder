@@ -1,10 +1,12 @@
 .navbar {
-    padding: 16px;
-    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content:space-between ;
     background-color: #e6e1e1;
 }
 
-.navbar > a {
-    padding: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serifs
+.navbar > ul {
+    display: flex;
+    gap: 135px;
+    list-style: none;
 }
