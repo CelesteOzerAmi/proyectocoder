@@ -2,8 +2,8 @@ const productos = [
     {
         id: "a1",
         categoria: "vestimenta",
-        nombre: "short 1",
-        descripcion: "short negro de dama",
+        nombre: "short",
+        descripcion: "short de dama",
         precio: 120, 
         stock: 15,
         img: "../public/img/carrito.png"
@@ -11,8 +11,8 @@ const productos = [
     {
         id: "a2",
         categoria: "vestimenta",
-        nombre: "short 2",
-        descripcion: "short blanco de dama",
+        nombre: "calza",
+        descripcion: "calza de dama",
         precio: 120, 
         stock: 2,
         img: "../public/img/carrito.png"
@@ -20,28 +20,37 @@ const productos = [
     {
         id: "a3",
         categoria: "vestimenta",
-        nombre: "short 3",
-        descripcion: "short largo de hombre",
+        nombre: "sombrero",
+        descripcion: "sombrero de paja",
         precio: 660, 
         stock: 23,
         img: "../public/img/carrito.png"
     },
     {
         id: "b1",
-        categoria: "vestimenta",
-        nombre: "calza",
-        descripcion: "calza larga de dama",
+        categoria: "calzado",
+        nombre: "zapatillas",
+        descripcion: "zapatillas de dama",
         precio: 1300, 
         stock: 0,
         img: "../public/img/carrito.png"
     },
     {
         id: "b2",
-        categoria: "vestimenta",
-        nombre: "biker",
-        descripcion: "biker de dama",
+        categoria: "calzado",
+        nombre: "botas",
+        descripcion: "botas de dama",
         precio: 340, 
         stock: 3,
+        img: "../public/img/carrito.png"
+    },
+    {
+        id: "b3",
+        categoria: "calzado",
+        nombre: "medias",
+        descripcion: "medias nike",
+        precio: 340, 
+        stock: 23,
         img: "../public/img/carrito.png"
     },
     {
@@ -53,7 +62,24 @@ const productos = [
         stock: 19, 
         img: "../public/img/carrito.png"
     },
-    
+    {
+        id: "c2",
+        categoria: "articulos",
+        nombre: "pelota",
+        descripcion: "pelota de basketball",
+        precio: 55, 
+        stock: 9, 
+        img: "../public/img/carrito.png"
+    },
+    {
+        id: "c3",
+        categoria: "articulos",
+        nombre: "pelota",
+        descripcion: "pelota de tennis",
+        precio: 55, 
+        stock: 1, 
+        img: "../public/img/carrito.png"
+    },
 ];
 
 const displayProductos = new Promise((resolve) => {

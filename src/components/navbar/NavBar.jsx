@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <section className="navbar">
             <Link to="/" className="brand">
-                <img src="../public/img/carrito.png" alt="" />
+                <img src="../img/mikelogo.png" alt="" />
             </Link>
             <ul>
                 <li>
