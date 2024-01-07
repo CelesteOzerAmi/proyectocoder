@@ -1,10 +1,32 @@
 import { Link } from "react-router-dom"
+import { useState } from "react"
 import "./item.css"
 
 
 const Item = ({ producto }) => {
+    const [zoom, setZoom] = useState(false)
+
+    const handleMouseOver = () => {
+        setZoom(true)
+    }
+
+    const handleMouseLeave = () => {
+        setZoom(false)
+    }
+
+    const estiloCard = {
+        transform: zoom ? 'scale(1.1)' : 'scale(1)',
+        transition: 'transform 0.3s ease-in-out'
+    }
+
     return (
-        <div className="card" key={producto.id}>
+        <div
+            style={estiloCard}
+            onMouseOver={handleMouseOver}
+            onMouseLeave={handleMouseLeave}
+            className="card"
+            key={producto.id}
+        >
             <img src={producto.img} alt="" />
             <h1> {producto.nombre} </h1>
             <p>{producto.descripcion}</p>

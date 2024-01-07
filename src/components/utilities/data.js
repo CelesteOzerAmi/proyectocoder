@@ -1,5 +1,6 @@
 const productos = [
     {
+        cantidad: " " , 
         id: "a1",
         categoria: "vestimenta",
         nombre: "short",
@@ -9,6 +10,7 @@ const productos = [
         img: "../public/img/carrito.png"
     },
     {
+        cantidad: " " , 
         id: "a2",
         categoria: "vestimenta",
         nombre: "calza",
@@ -17,7 +19,8 @@ const productos = [
         stock: 2,
         img: "../public/img/carrito.png"
     },
-    {
+    {        
+        cantidad: " " , 
         id: "a3",
         categoria: "vestimenta",
         nombre: "sombrero",
@@ -27,6 +30,7 @@ const productos = [
         img: "../public/img/carrito.png"
     },
     {
+        cantidad: " " , 
         id: "b1",
         categoria: "calzado",
         nombre: "zapatillas",
@@ -36,6 +40,7 @@ const productos = [
         img: "../public/img/carrito.png"
     },
     {
+        cantidad: " " , 
         id: "b2",
         categoria: "calzado",
         nombre: "botas",
@@ -45,6 +50,7 @@ const productos = [
         img: "../public/img/carrito.png"
     },
     {
+        cantidad: " " , 
         id: "b3",
         categoria: "calzado",
         nombre: "medias",
@@ -54,6 +60,7 @@ const productos = [
         img: "../public/img/carrito.png"
     },
     {
+        cantidad: " " , 
         id: "c1",
         categoria: "articulos",
         nombre: "pelota",
@@ -63,6 +70,7 @@ const productos = [
         img: "../public/img/carrito.png"
     },
     {
+        cantidad: " " , 
         id: "c2",
         categoria: "articulos",
         nombre: "pelota",
@@ -72,6 +80,7 @@ const productos = [
         img: "../public/img/carrito.png"
     },
     {
+        cantidad: " " , 
         id: "c3",
         categoria: "articulos",
         nombre: "pelota",

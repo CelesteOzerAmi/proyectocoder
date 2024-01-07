@@ -26,7 +26,6 @@ const ItemListContainer = ({ bienvenida }) => {
                 console.log(error);
             })
             .finally(() => {
-                console.log("fin promesa")
                 setCargando(false);
             });
     }, [categoria]);
